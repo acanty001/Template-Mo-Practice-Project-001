@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{
+	--skyblue1: #178fd6;
+	--banannayellow: #CEB43B;
+	--mossshine: #CEB43B;
+	--brownbeige: #D8D8A8;
+	--beige: #F0F0C0;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: var(--mossshine);
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	height: 475px;
+	background-image: url('../IMG/pexels-greece-5.jpg');
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+i{
+	font-size: 85px;
+	color: #fff;
+	padding: 40px;
+}
+
+/* Header */
+.header-content{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-content{
+	display: flex;
+}
+
+.left-content-1{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.left-content-2{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 60px 0px;
+	margin: 0px -20px;
+	color: #fff;
+}
+.left-content-2 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.left-content-2 h2{
+	font-size: 35px;
+	letter-spacing: .08em;
+}
+
+.left-content-2 h3{
+	font-size: 20px;
+}
+
+.navbar {
+	display: flex;
+	position: relative;
+}
+
+.navbar ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	font-size: 1.8em;
+	padding: 30px 15px;
+}
+
+.navbar ul li{
+	padding: 30px 20px;
+	margin: 0 10px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar ul li:hover{
+	border-bottom: #fff solid 2px;
+}
+.navbar .onpage{
+	border-bottom: #fff solid 2px;
+}
+
+/* Main */
+main{
+	background-color: #fff;
+	color: #626364;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.top-header{
+	margin: 0 auto;
+	width: 50%;
+	height: 200px;
+}
+
+.top-header h1{
+	color: #14111D;
+	font-size: 50px; 
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.top-header p{
+	color: #14111D;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0px;
+	line-height: 2em;
+
+}
+
+.profile-container{
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-1{
+	display: flex;
+	margin: 25px;
+}
+
+.profile-1 img{
+	margin: 10px 20px;
+	height: 300px;
+	width: 205px;
+}
+
+.profile-content h1{
+	color: #CEB43B;
+	letter-spacing: .2em;
+	font-size: 20px;
+	margin: 20px;
+	font-family: 'Caesar Dressing', cursive;
+}
+
+.profile-content h3{
+	color: #14111D;
+	margin: 20px;
+}
+
+.profile-content p{
+	color: #14111D;
+	margin: 20px;
+	line-height: 2em;
+}
+
+.profile-content i{
+	color: #14111D;
+	font-size: 30px;
+	margin: 20px;
+	padding: 0;
+}
+
+.profile-2{
+	display: flex;
+	margin: 25px;
+}
+
+.profile-2 img{
+	margin: 10px 20px;
+	height: 300px;
+	width: 205px;
+}
+
+.profile-3{
+	display: flex;
+	margin: 25px;
+}
+
+.profile-3 img{
+	margin: 10px 20px;
+	height: 300px;
+	width: 205px;
+}
+
+.profile-4{
+	display: flex;
+	margin: 25px;
+}
+
+.profile-4 img{
+	margin: 10px 20px;
+	height: 300px;
+	width: 205px;
+}
+
+section{
+	margin: 40px auto;
+	background: url('../IMG/pexels-restaurant-1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 90%;
+	height: 200px;
+}
+
+.three-option-section{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+.three-option-section a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.option-1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items 
+	height: 500px;
+}
+
+.option-1 i{
+	color:  #14111D;
+	font-size: 80px;
+	margin: 20px;
+	padding: 30px;
+}
+
+.option-1 p{
+	line-height: 2em;
+}
+
+.btn{
+	margin: 40px auto;
+	background-color: #0037CC;
+	color: #fff;
+	padding: 10px;
+}
+.btn:hover{
+	cursor: pointer;
+	transform: scale(.98);
+}
+
+.option-2{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items 
+	height: 500px;
+}
+
+.option-2 i{
+	color:  #14111D;
+	font-size: 80px;
+	margin: 20px;
+	padding: 30px;
+}
+
+.option-2 p{
+	line-height: 2em;
+}
+
+.option-3{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items 
+	height: 500px;
+}
+
+.option-3 i{
+	color:  #14111D;
+	font-size: 80px;
+	margin: 20px;
+	padding: 30px;
+}
+
+.option-3 p{
+	line-height: 2em;
+}
+
+.last-container-1{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	height: 400px;
+}
+
+.hist-image{
+	height: 400px;
+	width: 100%;
+}
+
+.hist-image img{
+	height: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-left: 30px;
+}
+
+.history-restaurant h1{
+	margin-top: 20px;
+	font-size: 1.7em;
+	color: #14111D;
+}
+
+.history-restaurant p{
+	margin-top: 40px;
+	line-height: 2em;
+	color: #14111D;
+	font-weight: bold;
+}
+
+.history-restaurant a{
+	color: #0037CC;
+}
+
+footer{
+	text-align: center;
+	margin: 30px;
+	color: #14111D;
+}
+
+.top-header-1{
+	margin: 0 auto;
+	width: 50%;
+	height: 400px;
+}
+
+.top-header-1 h1{
+	color: #14111D;
+	font-size: 50px; 
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;	
+}
+
+.top-header-1 p{
+	color: #14111D;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0px;
+	line-height: 2em;
+}
+.top-header-1 ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.btn-1{
+	margin: 50px 20px;
+	border: solid 2px #0037CC;
+	width: 100px;
+	color: #14111D;
+	padding: 20px;
+	text-align: center;
+}
+
+.btn-1:hover{
+	cursor: pointer;
+	transform: scale(.98);
+	background-color: #0037CC;
+}
+
+.meals{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	width: 90%;
+	margin: 0 auto;
+	justify-items: center;
+}
+
+.meals h1{
+	color: #D5B33B;
+	font-family: 'Caesar Dressing', cursive;
+}
+
+.meals p, .meals h2{
+	color: #14111D;
+}
+
+.salad img{
+	width: 250px;
+	height: 300px;
+}
+.salad h1{
+	margin: 20px 0;
+}
+.salad p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+.pizza img{
+	width: 250px;
+	height: 300px;
+}
+.pizza h1{
+	margin: 20px 0;
+}
+.pizza p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+.gyros img{
+	width: 250px;
+	height: 300px;
+}
+.gyros h1{
+	margin: 20px 0;
+}
+.gyros p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+.spanakopita img{
+	width: 250px;
+	height: 300px;
+}
+.spanakopita h1{
+	margin: 20px 0;
+}
+.spanakopita p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+
+.moussaka img{
+	width: 250px;
+	height: 300px;
+}
+.moussaka h1{
+	margin: 20px 0;
+}
+.moussaka p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+
+.kolokythokeftedes img{
+	width: 250px;
+	height: 300px;
+}
+.kolokythokeftedes h1{
+	margin: 20px 0;
+}
+.kolokythokeftedes p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+
+.dolmades img{
+	width: 250px;
+	height: 300px;
+}
+.dolmades h1{
+	margin: 20px 0;
+}
+.dolmades p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+
+.octapus img{
+	width: 250px;
+	height: 300px;
+}
+.octapus h1{
+	margin: 20px 0;
+}
+.octapus p{
+	margin: 20px 0;
+	line-height: 1.5em;
+}
+.bottom-container{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	width: 90%;
+	margin: 150px auto;
+}
+
+.veg-image img{
+	width: 500px;
+}
+
+.veg-image-content{
+	position: relative;
+}
+.veg-image-content h1{
+	color: #14111D;
+}
+.veg-image-content p{
+	color: #14111D;
+	margin: 20px 0;
+	line-height: 2em;
+}
+.veg-image-content .btn{
+	text-align: center;
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+}
+
+.form-contact-us{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	width: 70%;
+	margin: 50px auto;
+}
+
+.form{
+	border: #101010 solid 2px;
+}
+
+input{
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: underline;
+	border-bottom-color: #CCD4DA;
+	margin: 20px 50px;
+	padding: 20px;
+	width: 300px;
+}
+input:focus{
+	outline: #BFDEFF 5px solid;
+}
+
+textarea{
+	margin: 20px 50px;
+	width: 300px;
+	height: 200px;
+}
+
+.form-contact-us .btn{
+	width: 80px;
+	text-align: center;
+}
+
+.contact-us h1{
+	color: #14111D;
+}
+
+.contact-us p{
+	color: #14111D;
+	margin: 20px 0;
+}
+
+.contact-us i{
+	color: #14111D;
+	font-size: 30px;
+	margin-left: -30px;
+}
+.contact-us p{
+	line-height: 2em;
+}
+
+.phone{
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
+	height: 100px;
+	
+}
+
+.email{
+	display: flex;
+	align-items: center;
+	margin:-80px 0;
+	height: 100px;
+	
+}
+.social{
+	display: flex;
+	align-items: center;
+	margin: 40px 0;
+	height: 100px;
+}
+
+.social i{
+	color: #D5B33B;
+	font-size: 20px;
+}
+
+.map-container{
+	display: flex;
+
+}
+iframe{
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+@media(max-width: 900px){
+	.top-container{
+		width: 95%;
+	}
+	.left-content-2{
+		text-align: center;
+	}
+	.left-content-2 h3{
+		font-size: 0px;	
+	}
+	.header-content{
+		flex-direction: column;
+	}
+	.navbar ul{
+		bottom: 50px;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.navbar ul li{
+		margin-bottom: -50px;
+	}
+	.navbar .onpage{
+		border: none;
+	}
+	.navbar ul li:hover{
+		border-bottom: none;
+	}
+	main{
+		width: 95%;
+	}
+	.last-container{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+	.top-header-1 ul {
+		font-size: 0;
+	}
+	.btn-1{
+		border: none;
+	}
+	.meals{
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}
